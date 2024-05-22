@@ -43,10 +43,47 @@ La evaluación se basará en los siguientes criterios:
 
 Se deberá entregar el código fuente de los microservicios, así como la documentación correspondiente.
 
+## Bonus
+
+**Descripción:**
+
+Crear una aplicación móvil en Kotlin que permita gestionar una lista de pasajeros. La aplicación debe:
+Permitir la creación de 10 registros de pasajeros mediante una interfaz de usuario.
+Guardar estos registros en una base de datos local.
+Incluir un botón que envíe los 10 registros al servidor.
+
+**Requisitos:**
+
+* Lenguaje: Kotlin
+* Base de datos local: SQLite o Room
+* Comunicación: HTTP (REST API)
+* Framework de red: Retrofit o Ktor
+
+**Implementación:**
+
+* Modelo de Pasajero:
+* Definir una clase de datos Passenger con los campos necesarios (el candidato debe especificar las propiedades).
+* Interfaz de Usuario:
+* Crear formularios para ingresar los datos de los 10 pasajeros.
+* Botón para guardar cada pasajero localmente.
+* Botón para enviar los 10 pasajeros al servidor.
+* Base de Datos Local:
+* Utilizar SQLite o Room para almacenar los registros.
+* Implementar operaciones CRUD básicas.
+
+**Envio al servidor:**
+
+* Configurar Retrofit o Ktor para las solicitudes HTTP.
+* Implementar lógica para enviar los registros al servidor.
+
+**Entrega:**
+
+Código fuente del proyecto Android.
+Documentación con instrucciones para compilar y ejecutar la aplicación.
+
 **Notas:**
 
-* Esta es solo una descripción general de la prueba técnica. Los detalles específicos pueden variar.
-* Se recomienda que se familiarice con las tecnologías requeridas antes de comenzar la prueba técnica.
-* Si tiene alguna pregunta, no dude en contactarnos.
+Se evaluarán habilidades en Kotlin, manejo de bases de datos locales y comunicación con servidores.
+Se recomienda familiarizarse con las tecnologías antes de comenzar.
 
 **¡Buena suerte!**
